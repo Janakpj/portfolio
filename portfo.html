@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylee1.css">
+    <script src="https://kit.fontawesome.com/2a92e780ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                    <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#Projects">Projects</a></li>
+                    <li> <a href="#Achievements">Achievements</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Biotechnologist</p>
+                <h1 id="color1">Hi, I'm <span>JANARTHANAN K</span> <br>from Bannari Amman Institute of Technology</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_2364.JPG" width="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am pursuing my Bachelor's degree specification in Biotechnology at Bannari Amman Institute of Technology. I am Interested in research fields including Microbiology, Genetic engineering. I had hands-on training in Microbiology, Phytotherapeutics, Molecular docking and laboratory equipment handling. I had been an student intern at Dynamic Megaceutics, Chennai, where I had learnt and had hands-on experience in Algal Technology and Zebrafish toxicology.
+                        I also possess leadership qualities such as Self-confidence, Decision making, Delegation. I can easily get into the situation and get adapt to it. Being a self-motivator, I used to motivate myself whenever I get down. As an enthusiastic person, I am eager in learning and developing my skills and knowledge.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Biotechnology Skills</span><br>Molecular Biology<br>Phytotherapeutics <br>Nanomaterial Fabrication <br>Biotechnology Laboratory Skills</li>
+                        <li><span>Programming Skills</span><br>C <br>R Programming (Basics)</li>
+                        <li><span>Other</span><br>Communication <br>Leadership <br>Team Management and Co-ordination</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Internship | Dynamics Megaceutics</span><br> <span id="color1">OCT-2022</span><br><p>I have had the opportunity to expose myself to the Algal production and Zebrafish toxicology, Where I learnt the Larvae mainatenance and Algal growth media preparation. </p></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Bannari Amman Institute of technology <br>CGPA: 8.5</li>
+                        <li><span>2019-2021</span><br>HSC-RKR Gnanodhaya MHSS <br>Percentage: 94.84%</li>
+                        <li><span>2018-2019</span><br>SSLC-RKR Gnanodhaya MHSS <br>Percentage: 95%</li>
+                    </ul>
+                </div>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+<br>
+<!-- -----------------Services----------- -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects Done</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fa-solid fa-sheet-plastic"></i>
+                <h2>Fabrication of BioFilms using Starch</h2>
+                <p>This project aims in preparing a degradable Bio-film
+                    from the natural polysaccharide Starch. Starch was extracted from
+                    Potato and made into a bio-film with the addition of Polyvinyl Alcohol
+                    and Citric acid as plasticizer and crosslinker respectively.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-tooth"></i>
+                <h2>Synthesis of Whitlockites for Dental application</h2>
+                <p>The work focuses on chemically synthesizing whitlockite
+                    which are used as a dental fillers and is a promising biomaterial for
+                    bone tissue engineering and regeneration. They are employed due to
+                    its excellent osteogenic properties and Biocompatibility.
+                    Conventionally they are extracted from the rocks, which is often toxic
+                    to use in the biomedical field.</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-----------------Achievements----------->
+<div id="Achievements">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/gate exam.png">
+                <div class="layer">
+                    <h3>GATE 2024</h3>
+                    <p>Qualified Graduate Aptitude Test In Engineering (GATE-BT) Biotechnology 2024 <br>Marks obtained : 28</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/SIH.png">
+                <div class="layer">
+                    <h3>Smart India Hackathon 2023</h3>
+                    <p>Participated in the Smart India Hackathon Grand Finale 2023</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/patent.png">
+                <div class="layer">
+                    <h3>Patent Filed</h3>
+                    <p>Filed a patent titled "Formulation of black dye infused hair oil and the methodology thereof"</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br> <br>
+<!-------------contact----------->
+<div id="contact"> 
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>  janarthanank689@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>  janarthanan.bt21@bitsathy.ac.in</p>
+                <p><i class="fa-solid fa-phone"></i>   +91 97874 92882</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/janarthanan-k-1b9254232"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.researchgate.net/profile/Janarthanan-Karuppusamy"><i class="fa-brands fa-researchgate"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Janarthanan-Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="contact_form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="reset" class="btn btn2">Reset</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thanks for visiting !!</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyLilY8ZH7daJ7zJMOr36v1EGrpHTQPc7PxWinU7EYN3AGVuCnBzWj3KAHuLSqvzMTE/exec'
+        const form = document.forms['contact_form']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
